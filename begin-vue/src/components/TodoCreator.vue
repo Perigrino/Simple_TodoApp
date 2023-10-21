@@ -15,7 +15,7 @@ const createTodo = () =>{
     return;
   }
   todoState.invalid = true;
-  todoState.errMsg = "Todo value cannot be empty";
+  todoState.errMsg = "Oops! Looks like you forgot to add a Todo";
 
 }
 </script>
