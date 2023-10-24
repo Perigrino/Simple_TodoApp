@@ -18,7 +18,7 @@ const fetchTodoList = () => {
   }
 };
 
-// Fetch Todo's on page load
+// Fetch Todos on page load
 fetchTodoList();
 
 const setTodoListLocalStorage = () => {
