@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d714ae4-dbff-4133-8b11-c6a0733a5b9d" name="Changes" comment="added ignore file">
+    <list default="true" id="3d714ae4-dbff-4133-8b11-c6a0733a5b9d" name="Changes" comment="1. You can mark Todo as DONE&#10;2. You can EDIT Todo&#10;3. You can DELETE Todo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/begin-vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/begin-vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/begin-vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/begin-vue/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/begin-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/begin-vue/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/begin-vue/src/components/TodoCreator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/begin-vue/src/components/TodoCreator.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/begin-vue/src/components/TodoItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/begin-vue/src/components/TodoItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/begin-vue/src/views/TodoView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/begin-vue/src/views/TodoView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,28 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;Perigrino&quot;,
+      &quot;author&quot;: &quot;Perigrino&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Perigrino&quot;,
+    &quot;author&quot;: &quot;Perigrino&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bd8a0711-86b3-456c-ba4e-58b02dad11ac" />
+        <option name="url" value="https://github.com/Perigrino/Simple_TodoApp.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,6 +84,7 @@
       <updated>1697855533617</updated>
       <workItem from="1697855534622" duration="9900000" />
       <workItem from="1697866218870" duration="794000" />
+      <workItem from="1698107938223" duration="3259000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -85,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="added ignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ignore file" />
+    <MESSAGE value="1. You can mark Todo as DONE&#10;2. You can EDIT Todo&#10;3. You can DELETE Todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. You can mark Todo as DONE&#10;2. You can EDIT Todo&#10;3. You can DELETE Todo" />
   </component>
 </project>

@@ -1,31 +1,34 @@
 <script setup>
-import {defineEmits, reactive} from "vue";
+import { reactive } from "vue";
 
 const emit = defineEmits(["create-todo"]);
-const todoState = reactive({
+
+const todo = reactive({
   todo: "",
-  invalid: null,
-  errMsg: ""
+  invalid: false,
+  errMsg: "",
 });
-const createTodo = () =>{
-  todoState.invalid = null;
-  if (todoState.todo !== ""){
-    emit("create-todo", todoState.todo);
-    todoState.todo = "";
+
+const createTodo = () => {
+  todo.invalid = false;
+  if (todo.todo !== "") {
+    emit("create-todo", todo.todo);
+    todo.todo = "";
     return;
   }
-  todoState.invalid = true;
-  todoState.errMsg = "Oops! Looks like you forgot to add a Todo";
-
-}
+  todo.invalid = true;
+  todo.errMsg = "Todo value cannot be empty!";
+};
 </script>
 
 <template>
-  <div class="input-wrap" :class="{'input-err': todoState.invalid}">
-    <input type="text" v-model="todoState.todo" />
-    <button @click ="createTodo">Create</button>
+  <div class="input-wrap" :class="{ 'input-err': todo.invalid }">
+    <input type="text" v-model="todo.todo" />
+    <button @click="createTodo()">
+      <slot name="button-content"> Create </slot>
+    </button>
   </div>
-  <p v-show="todoState.invalid" class="err-msg"> {{todoState.errMsg}}</p>
+  <p class="err-msg" v-if="todo.invalid">{{ todo.errMsg }}</p>
 </template>
 
 <style lang="scss" scoped>
