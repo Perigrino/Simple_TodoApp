@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d714ae4-dbff-4133-8b11-c6a0733a5b9d" name="Changes" comment="1. You can mark Todo as DONE&#10;2. You can EDIT Todo&#10;3. You can DELETE Todo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/begin-vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/begin-vue/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/begin-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/begin-vue/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/begin-vue/src/components/TodoCreator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/begin-vue/src/components/TodoCreator.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/begin-vue/src/components/TodoItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/begin-vue/src/components/TodoItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/begin-vue/src/views/TodoView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/begin-vue/src/views/TodoView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +79,7 @@
       <updated>1697855533617</updated>
       <workItem from="1697855534622" duration="9900000" />
       <workItem from="1697866218870" duration="794000" />
-      <workItem from="1698107938223" duration="3259000" />
+      <workItem from="1698107938223" duration="3539000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -102,7 +97,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697865986801</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1. You can mark Todo as DONE&#10;2. You can EDIT Todo&#10;3. You can DELETE Todo">
+      <option name="closed" value="true" />
+      <created>1698111393133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698111393133</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1. You can mark Todo as DONE&#10;2. You can EDIT Todo&#10;3. You can DELETE Todo">
+      <option name="closed" value="true" />
+      <created>1698111463366</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698111463366</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
